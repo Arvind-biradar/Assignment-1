@@ -1,0 +1,275 @@
+Que. No1.check the given number is odd or even?
+
+
+Algorithm 
+  1. start the programm .
+  2.provide the input.
+  3.Divide the given number by 2.
+  4.If the remainder is 0 then print Even.
+  5. Else print Odd.
+  6. End the programm.
+  
+  
+Que No.2 To Find Factorial of the given number?
+   
+Algorithm
+  1.Start the programm.
+  2.Give the input number.
+  3.If number is 0 then print 1.
+  4.If not 0 then Multiple all the number from 1 to the given number.
+  5.Print the multiplication result.
+  6.End the programm.
+  
+Que.No 3. Find the factorial of the given number using recursion?
+
+Algorithm
+  1.Star the programm.
+  2.Take the number n.
+  3.Call the function factorial f(n).
+  4.Print the factorial f
+  5.End the programm
+  
+  1.Factorail f(n).
+  2.If n==0 then return 1.
+  3.If not then f=n*call of function factorial f(n-1).
+  4.Return f.
+  
+Que. NO.4. Swap two number using third variable approach?
+   
+Algorithm
+   1.Start the programm.
+   2.Creat three variable n1,n2,n3.
+   3.Take input n1 & n2.
+   4.First copy the n1 to n3.
+   5.Now copy the n2 to n1.
+   6.And now copy n3 to n1.
+   7.Print the n1 & n2 .
+   8.End the programm.
+   
+Que. No. 5. Check the given number is positive or negative?
+
+Algorithm
+   1.Start the programm.
+   2.Take the number.
+   3.If number is less than 0 then print negative.
+   4.Else if the number is greater than 0 then print positive.    
+   5.End the programm.
+   
+Que. no. 6. Check the given year is leap or not?
+
+Algorithm
+   1.Start the programm.
+   2.Take the input.
+   3.check Year is divisible by 4 but not divisible by 100 or only divisible by 400.
+   4.If divisible then it is leap year. 
+   5.Else its not leap year.
+   6.End the programm. 
+   
+Que. No. 7. Print 1 to 100 using loop?
+
+Algorithm   
+   1.Start the programm.
+   2.Start from 1 .
+   3.Check the value is equal or less than 100.
+   4.Print the number.
+   5.Increase the number by 1.
+   6.Again  repeat the process from 3.
+   7. End the programm.
+
+Que. No. 8. Write to print the digit of the given number.
+ 
+Algorithm
+   1.Start the programm.
+   2.Creat variable N1.
+   3.Enter the number in N1.
+   3.Divide the number N1 by 10 & print the Remainder .
+   4.Divide the the N1 by 10 & take the Quotient in N1.
+   5.If N1 is not equal to 0 then repeat then process from 3.
+   6.If n1 == 0 then break.
+   7.End the programm.
+   
+   
+Que. No. 9. Print the all factors of the given number?
+   
+Algorithm 
+  1. Start the programm.
+  2. Enter the number.
+  3. Creat the variable n .
+  4. If number is ==2 then print 1, 2 as factors. 
+  5. Else if number >2 store the value of quotient(number/2) in n.
+  6. Divide the number by from 1 .
+  7. Check Divident < or == n 
+  8. If remainder is 0 then .
+  9. Print the divident.
+  10.Increament the divident & repeat the process from 7.
+  11.End the programm. 
+
+Que. No. 10. Find the sum of all digit of the number?
+
+Algorithm
+
+  1. Start the programm.
+  2. Creat three variable sum=0,n1,n2.
+  3. Enter the number & store in n1.
+  4. Divide the number by 10 & store remainder in n2.
+  5. Add n2 in variable sum i.e sum=sum+n2.
+  6. Divide the the number by 10 & store the Quotient in n1.
+  7. Check the n1 != 0.
+  8. If n1!=0 then Repeat the process from 4.
+  9. If n1==0 then break & print the sum .
+  10.End the programm.
+  
+  
+Que. No. 11.Write the programm to find the smallest of the 3 number?
+
+Algorithm
+  1. Start the programm.
+  2. Creat three variable A,B &C. 
+  3. Enter the three variable.
+  4  Check A>B .
+  5.If yes then check B>C.
+  6.If yes then print C is smaller.
+  7.Else print B is smaller.
+  8.End the programm.
+
+Que. No.12.Add the two no without using + operator?
+
+Algorithm
+
+  1.Start the programm.
+  2.Creat the n3 variable =0
+  2.Enter the two number in n1,n2.
+  3.If n2<n3.
+  4.n1 Decreament by 1 & n2 increament by 1
+  5.Check n2==0 if yes the break.
+  6.Print n1.
+  7.Else
+  8.Add n3 to n1.
+  9.Check n3 <= n2.
+  10.If yes then repeat process from 7.
+  11.Print n1.
+  12.End the process.
+  
+Que No.13.Write the to reverse the number?
+
+Algorithm
+  1.Start the programm.
+  2.Creat the variable n1,n2.
+  3.Enter the number store in n1.
+  4.Divide the number by 10 & print the remainder .
+  5.Divide the number n1 by 10 &store the quotient in n1.
+  6.Check the number n1 !=0.
+  7.If n1 !=0 then repeat the process from 4.
+  8.If n1==0 then break .
+  9.End the Programm.
+
+Que. No. 14. Find highest common factor of two number  ?
+
+Algorithm 
+
+  1.Start the programm.
+  2.Enter th two numbers in Variable n1,n2.
+  3.If n1==n2 then print cdf as n1.
+  4.Check n1!=n2.
+  5.If yes Check n1>n2.
+  6.if yes n1-n2.
+  7.Else n2-n1.
+  8.Again check From process 4.
+  9.If no then print n1.
+  10.End the programm.
+  
+Que. No. 15. Find Lcm of two number ?
+
+Algorithm
+
+  1.start the programm.
+  2.Creat three variables N1,N2,Max.
+  3.Check the N1>N2.
+  4.If true then max =N1.
+  5.Else max =N2.
+  6.Check max/N1==0 && max/n2==0.
+  7.If True  then print Lcm =max.
+  8.If false then increament max by 1.
+  9.Again repeat the process from 6.
+  10.End the programm.
+
+
+Que. No.16. Find the Lcm of two number by using prime factor method?
+
+Algorithm  
+
+  1.Start the programm.
+  2.Enter the two number .
+  3.Find all the factors.
+  4.Mulyiply all Non comman value.
+  5.Multiply non comman and comman value.
+  6.Print the multiplication.
+  7.End the programm.
+  
+Que. No.17. Find the given number is pelindrom or not?
+
+
+Algorithm
+
+  1.Start the programm.
+  2.Creat the variable n.
+  2.Enter the number in n & check no. n>0.
+  3.Divide the given no. by 10 Take remainder.
+  4.Multiply the remainder by by 10 & Store in Variable Sum.
+  5.Divide the no. n by 10 store  Quotient in n.
+  6. Again check no. n>0.
+  7.If yes  Repeat from process 3.
+  8.Add the remainder to sum multiply by 10.
+  9.Divide the no n by 10 & store Quotient in n.
+  10.again Check no. n>0.
+  11.If yes continue process from 7.
+  12.If not then check no.n== sum.
+  13. If yes then No. is pelindram.
+  14.Else Not.
+  15.End the programm.
+  
+  
+  
+Que. No. 18 Write the programm to print Prime factor of the given number.
+
+
+Algorithm
+
+  1.Start the programm.
+  2. Enter the number n .
+  3.Star from 1 divide the given no n .
+  4.Check Remainder is 0.
+  5.If yes then print the Dividing no.
+  6.Increament the divider by 1 & check Divider no. <= n.
+  7.If yes diving no. <= n then Divide the the no. by 2 .
+  8.Repeat process from  4.  
+  9.End the programm.
+
+Que. no 19.Write to print Even number series.
+
+Algorithm
+  1.Start the programm .
+  2.Start from 1.
+  3.Divide the given no. by 2.
+  4.If remainder is 0 then print the no.
+  5. Increament the 1 By 1.
+  6. Repeat the process from 3.
+  7.End the programm.
+  
+  
+Que. no 20.Write to print Odd number series.
+
+Algorithm
+  1.Start the programm .
+  2.Start from 1.
+  3.Divide the given no. by 2.
+  4.If remainder is not 0 then print the no.
+  5. Increament the 1 By 1.
+  6. Repeat the process from 3.
+  7.End the programm.  
+
+
+  
+
+  
+ 
